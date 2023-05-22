@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<!-- <p>WTHF IS HEAD 1  </p> -->
+<head>
+
+<title>Мегаполис Строй > вашият идеален партньор в строителството > Поскайте оферта за сторителни услуги с високо качество.</title>
+
+
+ <meta charset="UTF-8">
+ <meta name="description" content="Високо качество на строителни услуги > плочки, баня, вик, ел. услуги > разгледай пакетни цени на строителни решения с megapolis-stroy.com">
+ <meta name="keywords" content="HTML, CSS, JavaScript">
+ <meta name="author" content="Dimorph 100">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+<style>
+   
+
+      
+    body {
+            background-image: url(dimorph-design-pexels-cottonbro-studio-4065617.jpg);
+            background-repeat: no-repeat;
+            background-size: 1400px 1400px;
+            background-attachment: fixed;
+            font-family: Arial;
+        }
+    
+    
+    h1{
+    }
+    
+    h2 {
+        font-size: 32px;
+    }
+    
+    h3 {
+        font-style: italic;
+        font-size: 24px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    
+    
+
+    navbar {
+        display: block;
+        position: sticky; /* Set the navbar to fixed position */
+        top: 0;/* Position the navbar at the top of the page */
+        z-index: 3;
+     }
+    
+
+    .navbar {
+      overflow: hidden;
+        background: rgb(154,205,50); 
+    }
+
+    .navbar a {
+      float: left;
+      font-size: 18px;
+      text-align: center;
+      padding: 16px 18px;
+        color: black;
+    }
+
+    .dropdown-nav {
+      float: left;
+      overflow: hidden;
+    }
+
+    .dropdown-nav .dropbtn-nav {
+      font-size: 18px;  
+      border: none;
+      outline: none;
+      padding: 16px 18px;
+        color: black;
+      background-color: inherit;
+      margin: 0;
+    }
+
+.navbar a:hover, .dropdown-nav:hover .dropbtn-nav {
+  background-color: darkgrey;
+}
+
+.dropdown-content-nav {
+        left: 0.2%;
+  display: none;
+  position: absolute;
+  background-color: darkgray; 
+  min-width: 285px;
+
+}
+
+.dropdown-content-nav a {
+  float: none;
+  padding: 12px 16px;
+  display: block;
+  text-align: right;
+}
+
+.dropdown-content-nav a:hover {
+  background-color: darkgray;
+}
+
+.dropdown-nav:hover .dropdown-content-nav {
+  display: block;
+}
+
+    
+    
+                .fa {
+                  padding: 20px;
+                  font-size: 30px;
+                  width: 30px;
+                  text-align: center;
+                  text-decoration: none;
+                  margin: 5px 2px;
+                  border-radius: 50%;
+                    }
+
+                .fa:hover {
+                    opacity: 0.7;
+                    }
+                .fa-facebook {
+                    background: #3B5998;
+                    color: white;
+                    }
+                .fa-youtube {
+                    background: #bb0000;
+                    color: white;
+                    }
+    
+    aside {
+        width: 45%;
+        height: 630px;
+        padding-left: 3%;
+        padding-right: 0,5%;
+        position: fixed; /* Set the navbar to fixed position */
+        top: 20%;/* Position the navbar at the top of the page */
+        left: 62%;
+        background: darkgrey;
+        z-index: 2;
+    }
+    
+    
+    
+    @media (max-width: 960px) 
+    {
+      aside { width: 100%; float: none; z-index: 1;}
+    }
+    
+    
+    
+    
+    
+    pre {
+        width: 97%;
+        padding: 1%;
+        text-align: justify;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+    }
+    
+    p {
+        width: 97%;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        text-align: justify;
+        padding-left: 2%;
+        text-indent: 4px;
+    }
+    
+    section {
+        width: 55%;
+        font-style: normal;
+        padding: 3%;
+        background: ghostwhite;
+    }
+    
+    
+    article {
+        width: 55%;
+        font-style: normal;
+        padding: 3%;
+        background-color: rgb(180, 240, 180, 0.8);
+        min-height: 600px;
+    }
+    
+   
+    
+    
+    a:link {text-decoration: none; color: darkslategrey;}
+    /* mouse over link */
+    a:hover {color: dimgrey;}
+    a:visited {text-decoration: none; color: darkslategrey;}
+
+   
+    
+
+    .dropdown {
+        width: 80%;
+        padding-left: 24px;
+        padding-right: 24px;
+        position: sticky;
+        display: inline-block;
+        white-space: nowrap;
+           z-index: 1; 
+    }
+
+    .dropdown-content {
+          display: none;
+          position: sticky;
+            
+    }
+    
+    .dropdown:hover .dropdown-content {
+          display: block;
+    }
+    
+    .dropdownone{
+        position: sticky;
+        display: grid;
+        white-space: nowrap;
+        
+    }
+    
+    .dropdownone-content{
+        display: none;
+        position: sticky;
+        min-width: 100%;
+    }
+    
+    .dropdownone:hover .dropdownone-content {
+        display: block;
+    }
+    
+    
+
+    
+</style>
+
+
+
+
+</head>
+<!-- <p>WTHF IS HEAD 1 END </p> -->
+
+
+<body>
+
+
+
+<!-- <p>HEADER </p> -->
+<header id="#home" style="background-color: ghostwhite;">
+
+МЕГАПОЛИС СТРОЙ | гр. Варна | тел: 08888888 | е-поща: ккк@ккк.сом
+
+<a href="https://www.facebook.com/megapolis32/" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-youtube"></a>
+
+
+</header>
+<!-- <p>HEADER </p> -->
+
+
+<!-- <p>NAV </p> -->
+<navbar>
+  <div class="navbar">
+  <a href="#home">Начало</a>
+  <a href="#zanas">За Нас</a>
+  <div class="dropdown-nav">
+  <button class="dropbtn-nav" >Услуги 
+    </button>
+    <div class="dropdown-content-nav">
+      <a href="#uslugi">БАНЯ | ВИК</a>
+      <a href="#uslugi">СМЯНА / ПОСТАВЯНЕ НА ПЛОЧКИ</a>
+      <a href="#uslugi">ШПАКЛОВКА И ЛАТЕКС</a>
+    </div>
+  </div>
+  <a href="#kontakti">Контакти</a>
+</div>
+</navbar>
+<!-- <p>NAV </p> -->
+
+<br><hr><br>
+
+<!-- <p>This is another paragraph 1 </p> -->
+<section id="home" style="min-height: 600px"> 
+
+<h1>
+    
+    <pre>
+      МЕГАПОЛИС СТРОЙ,                  
+вашият идеален партньор в строителството
+    </pre>
+</h1>
+
+    <p>Предлагаме пълен набор от строителни услуги. Залагаме на качество, чистота и прецизно изпълнение, в срок.</p>
+    <br><hr id="uslugi"><br><br>
+
+
+<h2>Разгледайте нашите Услуги</h2>
+<h3>
+Къртене, лепене, смяна на плочки.
+Водопровод и Канализация.<br>
+Гипсова шпакловка, латекс.<br>
+</h3>
+
+<p>За повече детайли, изберете опция:</p>
+<br>
+
+<!-- <p>DROPDOWN START </p> -->
+<div class="dropdown" style="background-image: url(services.jpeg);">
+   
+       <h4>УСЛУГИ</h4>
+       
+        <div class="dropdown-content" style="background: rgb(87, 224, 87);">
+            <p>текст текст текст</p>
+            
+            <h4>Услуга 1</h4>
+            
+            <p>текст текст текст</p>
+            
+            <h4>Услуга 2</h4>
+            
+            <p>текст текст текст</p>
+            
+            
+        </div>
+</div>
+<br><br>
+
+<div class="dropdown" style="background-image: url(projects.jpeg);">
+       <h4>ПРОЕКТИ</h4>
+        <div class="dropdown-content">
+            
+            <p>текст текст текст</p>
+            
+            <div class="dropdownone" style="background: rgb(0, 255, 0);">
+              <span><h4>Проект 1</h4></span>
+              <div class="dropdownone-content">
+               <p>текст текст текст</p>
+               
+                <h5>Смяна на плочки</h5>
+                <h5>Поставяне на аксесоари за баня</h5>
+                <h5>Окачен таван</h5>                
+               </div>
+            </div>
+           
+           <div class="dropdownone" style="background: rgba(1, 165, 1, 0.55);">
+              <span><h4>Проект 2</h4></span>
+              <div class="dropdownone-content">
+               
+               <p>текст текст текст
+               </p>
+               
+                <h5>Сваляне на стара мазилка</h5>
+                <h5>Поставяне на гипсокартон</h5>
+                <h5>Шпакловка и латекс</h5>               
+               </div>
+            </div>
+            
+            <div class="dropdownone" style="background: rgba(170, 255, 170, 0.85);">
+              <span><h4>Проект 3</h4></span>
+              <div class="dropdownone-content">
+               
+               <p>текст текст текст</p>
+               
+                <h5>Смяна на ВиК</h5>
+                <h5>Смяна на електрическа система</h5>
+                <h5>Поставяне на ел. ключове и контакти</h5> 
+               </div>
+            </div>
+            <br><br>
+        </div>
+</div>
+<br><br>
+
+
+<p>
+<a href="#quote">Вижте нашите оферти>></a></p>
+
+<br>
+
+<!-- <p>sidenote </p> -->
+<aside id="quote">
+<h3>Форма за запитване</h3>
+
+<form action="/action_page.php">
+ 
+  <label for="fname">Име:</label><br>
+  <input type="text" id="name" name="name" style="width: 250px; height: 20px;"><br>
+  <label for="email">Е-поща:</label><br>
+  <input type="email" id="email" name="email" style="width: 250px; height: 20px;"><br>
+  
+  <p style="width: 72%;">За поръчка на продукти / услуги:</p>
+   
+   <form action="/action_page.php">
+  <input type="checkbox" id="services" name="service1" value="Design">
+  <label for="service1">Дизайн и Предпечат</label><br>
+  <input type="checkbox" id="service2" name="service2" value="Print">
+  <label for="vehicle2">Дигитален и Офсетов Печат</label><br><br>
+  
+  <form action="/action_page.php">
+      <label for="printtype">Материали:</label>
+        <select name="printtype" id="printtype">
+            <option value="blanc"></option>
+            <option value="med">Брошури / Листовки / Флаери</option>
+            <option value="lar">Постери</option>
+            <option value="small">Баджове / Визитки / Табели</option>
+        </select><br>
+
+        <label for="printformat">Формат:</label>
+        <select name="printformat" id="printformat">
+            <option value="blanc"></option>
+            <option value="а">по-малко от А4</option>
+            <option value="b">А4</option>
+            <option value="c">А3</option>
+            <option value="d">50/70</option>
+            <option value="e">60/40</option>
+        </select><br>
+
+        <label for="printunits">Тираж:</label>
+        <select name="printunits" id="printunits">
+            <option value="blanc"></option>
+            <option value="f">до 400 бр.</option>
+            <option value="g">до 1000 бр.</option>
+            <option value="h">до 5000 бр.</option>
+            <option value="l">до 10 000 бр.</option>
+            <option value="m">над 10 000 бр.</option>
+        </select>
+        </form><br>
+  
+  
+  <input type="checkbox" id="service3" name="service3" value="webopt">
+  <label for="service3">Оптимизация на Уебсайт</label><br>
+  <input type="checkbox" id="service4" name="service4" value="netads">
+  <label for="service4">Интернет реклама</label><br>
+
+      <p style="width: 72%;">Моля добавете повече детайли за услугите / продуктите, които търсите:</p>
+      <kbd></kbd>
+      <input type="text" height="60px" id="freetext" name="freetext" required minlength="0" maxlength="120" style="width: 250px; height: 80px;"><br><br>
+      
+        <input type="submit" value="Изпращане"><input type="reset" value="Изтриване">
+</form>
+  <a href="mailto:office@dimorph.eu">GDPR / Лични данни</a>
+</form>
+</aside>
+<!-- <p>sidenote </p> -->
+
+<br>
+
+</section> 
+<!-- <p>This is another paragraph 1 END </p> -->
+
+<br><hr id="zanas"><br>
+
+
+<!-- <p>This is another paragraph 2 </p> -->
+<article>
+
+    <h2>За Нас - Мегаполис Строй</h2>
+    
+    <p>Строителството е комплексна дейност, резултат от колективен труд, по всяка поръчка работят много специалисти, в различни области. Ние ангажираме, за вас, най-добрите в бранша, защото качеството на изпълнение е нашият първи приоритет</p><br>
+    
+    <div class="dropdown" style="background-image: url(staff.jpeg);">
+    <h4>Нашият екип</h4>
+        <div class="dropdown-content">
+           
+           <p>текст текст текст</p>
+               
+            <h5>Заглавие</h5>
+            
+            <p>текст текст текст</p>
+            
+            <h5>Заглавие</h5>
+            
+            <p>текст текст текст</p>
+            
+            <h5>Заглавие</h5>
+            
+            <p>текст текст текст</p>
+            
+    
+        </div>
+</div><br><br><hr>
+    
+    <div class="dropdown">
+    <pre>
+    Нашата компания възниква като семеен бизнес през 1990 г. С годините сме изградили гъвкава структура за онлайн поръчки и  дистанционно управление на производството, която е изцяло съобразена с удобството на клиентите.
+    </pre>
+    
+    <div class="dropdown-content">
+    <p>
+    текст текст текст картина
+    </p><br> 
+    </div>
+    </div><br>
+    
+    
+    <div class="dropdown">
+    <pre>
+    Качеството на строителните работи, се изразява в стриктно спазване на процедурите за полагане на материали, и прецизно изпълнение на всеки детайл, чрез целенасочени усилия в желаната посока, до постигане на желания резултат. За вашите ремонти осигуряваме най-качествени суровини и материали на българския пазар. 
+
+    </pre> 
+    
+    <div class="dropdown-content">
+    <p>
+    текст текст текст картина  
+    </p>
+    </div>
+    </div><br>
+    
+    <div class="dropdown">    
+    <pre>
+    Релаизацията на вашите идеи за вътрешно оформление на вашите помещения са наша отговорност. За ваше улеснение, предлагаме пакети от услуги и продукти, на преференциални цени, които оптимизират бюджета и подобряват сроковете на изпълнение.</pre>
+    <div class="dropdown-content">
+    <p>
+    текст текст текс картина
+    </p>
+    </div>
+    </div><br><br>
+    <a href="mailto:office@dimorph.eu">Вижте нашите цени на пакетни услуги >></a><br><br>
+    <br>
+</article>
+
+
+<!-- <p>This is another paragraph 2 END </p> -->
+
+<br><hr id="kontakti"><br>
+
+
+
+<!-- <p>This is another paragraph 3 </p> -->
+<section> 
+
+<pre>
+    <h2>Контакти</h2>
+        
+           тел:     0888 888 888
+        е-поща:     xxx at xxx dot com
+         адрес:     Варна 0000, 
+         
+         
+<hr>          
+         <h3>Форма за запитване</h3>
+
+<form action="/action_page.php">
+ 
+  <label for="fname">Име:</label><br>
+  <input type="text" id="name" name="name" style="width: 250px; height: 20px;"><br>
+  <label for="email">Е-поща:</label><br>
+  <input type="email" id="email" name="email" style="width: 250px; height: 20px;"><br>
+  
+  <p style="width: 72%;">За поръчка на продукти / услуги:</p>
+   
+   <form action="/action_page.php">
+  <input type="checkbox" id="services" name="service1" value="Design">
+  <label for="service1">Дизайн и Предпечат</label><br>
+  <input type="checkbox" id="service2" name="service2" value="Print">
+  <label for="vehicle2">Дигитален и Офсетов Печат</label><br><br>
+  
+  <form action="/action_page.php">
+      <label for="printtype">Материали:</label>
+        <select name="printtype" id="printtype">
+            <option value="blanc"></option>
+            <option value="med">Брошури / Листовки / Флаери</option>
+            <option value="lar">Постери</option>
+            <option value="small">Баджове / Визитки / Табели</option>
+        </select><br>
+
+        <label for="printformat">Формат:</label>
+        <select name="printformat" id="printformat">
+            <option value="blanc"></option>
+            <option value="а">по-малко от А4</option>
+            <option value="b">А4</option>
+            <option value="c">А3</option>
+            <option value="d">50/70</option>
+            <option value="e">60/40</option>
+        </select><br>
+
+        <label for="printunits">Тираж:</label>
+        <select name="printunits" id="printunits">
+            <option value="blanc"></option>
+            <option value="f">до 400 бр.</option>
+            <option value="g">до 1000 бр.</option>
+            <option value="h">до 5000 бр.</option>
+            <option value="l">до 10 000 бр.</option>
+            <option value="m">над 10 000 бр.</option>
+        </select>
+        </form><br>
+  
+  
+  <input type="checkbox" id="service3" name="service3" value="webopt">
+  <label for="service3">Оптимизация на Уебсайт</label><br>
+  <input type="checkbox" id="service4" name="service4" value="netads">
+  <label for="service4">Интернет реклама</label><br>
+
+      <p style="width: 72%;">Моля добавете повече детайли за услугите / продуктите, които търсите:</p>
+      <kbd></kbd>
+      <input type="text" height="60px" id="freetext" name="freetext" required minlength="0" maxlength="120" style="width: 250px; height: 80px;"><br><br>
+      
+        <input type="submit" value="Изпращане"><input type="reset" value="Изтриване">
+</form>
+  <a href="mailto:office@dimorph.eu">GDPR / Лични данни</a>
+</form>
+<hr>
+
+</pre>
+
+
+
+</section> 
+
+<!-- <p>This is another paragraph 3 END </p> -->
+
+
+<footer>
+<hr>
+<br>
+  <div style="display:inline">
+  <h5 style="display:inline;">Author: Dimorph 100</h5> | e-mail:<a href="mailto:office@dimorph.eu">office@dimorph.eu</a> | <h6 style="display:inline;"></h6><br>
+</div><br>
+</footer>
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
